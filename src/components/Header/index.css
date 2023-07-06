@@ -1,0 +1,57 @@
+/* Write your CSS here */
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  height: 40px;
+  margin-left: 30px;
+}
+
+.hamburger {
+  margin-right: 30px;
+  height: 50px;
+}
+
+.hamburger-button {
+  background-color: transparent;
+  border: none;
+}
+
+.popup-card {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100px;
+}
+
+.home-icon {
+  height: 30px;
+}
+
+.home-heading {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.about-heading {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
